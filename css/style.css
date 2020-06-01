@@ -1,9 +1,13 @@
 
 h1{
-    color: rgb(151, 21, 21);
+    
+    color: rgb(16, 82, 16);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
 body{
+    
+    background-image: url(imagem_fundo.jpg);
     color: black;
     font-style: normal;
     font-size: 12pt;
@@ -13,4 +17,10 @@ body{
 p{
     text-align: justify;
     line-height: 15px;
+}
+
+.pags{
+    font-size: 25px;
+    text-align: center;
+    
 }
