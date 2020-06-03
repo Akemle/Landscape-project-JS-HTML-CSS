@@ -1,26 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header ul{
+    margin: 0;
+    background-color: #6ca500;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0px;
+}
+.header ul li{
+    display: inline;
+}
+.header ul li a{
+    padding: 5px 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    color: #113C0B ;
+}
 
-h1{
-    
-    color: rgb(16, 82, 16);
+
+#title{
+    text-align: left;
+    color: #6ca500;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
-body{
-    
-    background-image: url(imagem_fundo.jpg);
-    color: black;
-    font-style: normal;
-    font-size: 12pt;
-    font-weight: 600;
-    font-family: serif;
+.Text{
+    margin: 60px  500px -10px 500px;
+}
+h2{
+    /*margin: 10px 500px -10px 500px;*/
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
+    /*margin: -10px 500px -10px 500px ;*/
+    padding: 5px 20px;
     text-align: justify;
-    line-height: 15px;
+    line-height: 22px;
+    text-indent: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    
 }
 
-.pags{
-    font-size: 25px;
-    text-align: center;
-    
+
+.imgs{
+
+    margin: 50px auto;
+}
+
+
+.footer_style{
+    font-family: serif, Times; 
+    text-align: left;   
+}
+#github{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
 }
