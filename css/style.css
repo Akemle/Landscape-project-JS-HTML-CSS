@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -17,32 +18,26 @@ body{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: #aaaaaa;
+    color: #e6e6e6;
     text-decoration: none;
     
 }
 .header ul li a:hover{
-    color: #113C0B ;
+    color: #113C0B;
+    transition: 0.2s;
 }
 
-
-#title{
-    text-align: left;
-    padding: 0px 100px; 
-    color: #aaaaaa;
-    font-family: 'Times New Roman';
-    font-size: 50px;
-}
 .Text{
-    margin: 60px  500px -10px 500px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
 }
 h2{
-    /*margin: 10px 500px -10px 500px;*/
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
-    /*margin: -10px 500px -10px 500px ;*/
     padding: 5px 20px;
     text-align: justify;
     line-height: 22px;
@@ -50,23 +45,34 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: 600;
-    
 }
 
-
-.imgs{
-
-    margin: 50px auto;
+.imgs {
+    background-color: #ccee8d;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-
-
-.footer_style{
-    font-family: serif, Times; 
-    text-align: left;   
+#container_gallery{
+    background-color: #e6ffee;
+}
+.imgs img{
+    padding: 5px;
+    max-width: 25%;
+    max-height: 25%;
+}
+footer{
+    height:  250px;
+}
+#footer_style{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
 }
 #github{
-    max-width: 50px;
-    max-height: 50px;
-    width: auto;
-    height: auto;
+    max-width: 40px;
+    max-height: 40px;    
 }
+
+
