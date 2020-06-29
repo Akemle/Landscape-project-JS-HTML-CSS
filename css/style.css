@@ -3,15 +3,26 @@ body{
     margin: 0;
     padding: 0;
 }
+.header{
+    
+    
+}
 .header ul{
+    display: flex;
+    top: 0;
+    height: 100px;
+    position: fixed;
+    width: 100%;
     margin: 0;
-    background-color: #6ca500;
+    background-color: #008080;
     list-style: none;
-    text-align: center;
+    align-items: center;
     padding: 10px 0px;
+    z-index:2;
 }
 .header ul li{
-    display: inline;
+    display:inline;
+
 }
 .header ul li a{
     padding: 5px 20px;
@@ -23,8 +34,17 @@ body{
     
 }
 .header ul li a:hover{
-    color: #113C0B;
+    color: #004d4d;
     transition: 0.2s;
+}
+#container_gallery{
+    margin-top: 160px;
+}
+
+.header .landscape{
+   z-index: inherit;
+   font-size: 35px;
+  
 }
 
 .Text{
@@ -32,47 +52,75 @@ body{
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 10px;
-}
-h2{
-    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
-p{
+.Text h2{
+    padding: 20px;
+    
+}
+.Text p{
     padding: 5px 20px;
     text-align: justify;
     line-height: 22px;
     text-indent: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     font-size: 18px;
     font-weight: 600;
 }
 
 .imgs {
-    background-color: #ccee8d;
+    background-color: #c3fcfc;
     text-align: center;
-    margin-bottom: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    z-index:1;
 }
 #container_gallery{
-    background-color: #e6ffee;
+   
+    background-color: #ffffff;
 }
 .imgs img{
-    padding: 5px;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 360px;
+    max-height: 640px;
+    margin: 15px 15px;  
+    transition: 1s;
 }
-footer{
-    height:  250px;
-}
-#footer_style{
-    display: inline;
-    text-decoration: none;
-    text-align: center;
-}
-#github{
-    max-width: 40px;
-    max-height: 40px;    
+.imgs img:hover{
+    transform: scale(1.1);
 }
 
+
+#footer_style{
+    background-color: #003333;
+    height:200px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+}
+#footer_style ul{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    list-style: none;
+}
+#footer_style ul li{
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footer_style ul li a{
+    text-decoration: none;
+    
+}
+#github:hover{
+    opacity: 0.5;
+    transition: 0.8;
+}
 

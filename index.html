@@ -5,39 +5,41 @@
     <meta content="width=device-width, initial-scale=1.0">
     <title>LandScape</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/imgSliderIndex.css">
 
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <ul>
-                <li><a href="index.html">
-                        <h1>GallerySite</h1>
-                    </a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="header">
+            <nav>
+                
+                <ul>
+                    <li><a href="index.html" class="landscape">LandScape</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section id="container_gallery">
+
         <!-- image -->
-        <div id="slider">
-            <label for="fig">
-                <figure id=fig>
-                    <img src="img/img_index.jpg" alt="">
-                    <img src="img/img_index2.png" alt="">
-                </figure>
-            </label>
+        <div class="slider">
+            <img class="img" src="img/img_index.jpg" alt="">
+            <img class="img" src="img/img_index2.png" alt="">
+            <img class="img" src="img/img_index3.jpg" alt="">
         </div>
+
 
         <!-- text -->
         <div class="Text">
 
             <hr>
-            <h2>Landscape images</h2>
-            <p> A <strong>LandScape</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officia
+            <h2>Landscape</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officia
                 inventore
                 nesciunt amet dolores laboriosam animi a placeat, beatae vel illum adipisci voluptatem autem porro
                 assumenda
@@ -47,36 +49,77 @@
                 obcaecati vitae consequuntur dignissimos molestiae tempore, iste vero tempora consectetur itaque
                 deserunt at
                 consequatur vel aperiam?</p>
-            <!--text-->
+
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio suscipit omnis corrupti praesentium
                 debitis
                 obcaecati vitae consequuntur dignissimos molestiae tempore, iste vero tempora consectetur itaque
                 deserunt
-                atconsequatur vel aperiam?</p>
+                atconsequatur vel aperiam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta nemo et
+                officia illum aperiam tempore, illo voluptate, cupiditate rem explicabo, deleniti amet placeat magni
+                quos ut incidunt facilis culpa!</p>
             <p> ipsum, dolor sit amet consectetur adipisicing elit. Odio suscipit omnis corrupti praesentium
                 debitisobcaecati vitae consequuntur dignissimos molestiae tempore, iste vero tempora consectetur itaque
                 deserunt atconsequatur vel aperiam?</p>
-            <!--text-->
+
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit quia earum architecto
                 voluptas.
                 Suscipit ducimus possimus veritatis nobis pariatur magnam itaque sed, deserunt accusantium ad
                 consectetur,
-                sit, optio atque?</p>
+                sit, optio atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique facilis iste ut,
+                nemo distinctio nostrum incidunt, dolores aliquid molestias quae quos deserunt repudiandae placeat eum.
+                Itaque deleniti sapiente explicabo libero?</p>
+            <hr>
+        </div>
+
+        <!--carousel-->
+        <div id="imgSlider">
+            <button class="btSlider" onclick="changeImgManual(-1)"> < </button>
+                    <button class="btSlider" onclick="changeImgManual(1)"> > </button>
+        </div>
+
+
+        <div class="Text">
+            <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime voluptas quos earum? Porro saepe
                 ullam
                 eaque dignissimos similique, hic harum deleniti ipsum totam rerum maiores, aut veniam, eveniet
-                blanditiis.
-            </p>
+                blanditiis.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At fuga corporis sunt tempora earum facere
+                dolorum nobis, quam et voluptas eveniet voluptate ad inventore necessitatibus aspernatur dignissimos
+                nisi similique velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti
+                quis doloribus aperiam eaque, inventore nemo ab fuga, consequuntur culpa cupiditate rem laboriosam
+                excepturi qui dolores veritatis, exercitationem ipsum reprehenderit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At fuga corporis sunt tempora earum facere
+                dolorum nobis, quam et voluptas eveniet voluptate ad inventore necessitatibus aspernatur dignissimos
+                nisi similique velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti
+                quis doloribus aperiam eaque, inventore nemo ab fuga, consequuntur culpa cupiditate rem laboriosam
+                excepturi qui dolores veritatis, exercitationem ipsum reprehenderit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At fuga corporis sunt tempora earum facere
+                dolorum nobis, quam et voluptas eveniet voluptate ad inventore necessitatibus aspernatur dignissimos
+                nisi similique velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti
+                quis doloribus aperiam eaque, inventore nemo ab fuga, consequuntur culpa cupiditate rem laboriosam
+                excepturi qui dolores veritatis, exercitationem ipsum reprehenderit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At fuga corporis sunt tempora earum facere
+                dolorum nobis, quam et voluptas eveniet voluptate ad inventore necessitatibus aspernatur dignissimos
+                nisi similique velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti
+                quis doloribus aperiam eaque, inventore nemo ab fuga, consequuntur culpa cupiditate rem laboriosam
+                excepturi qui dolores veritatis, exercitationem ipsum reprehenderit.</p>
         </div>
-        <hr>
         <footer id=footer_style>
-            <p style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">&copy;
-                GallerySite</p>
-            <a href="https://github.com/Akemle/Landscape-project-JS-HTML-CSS"> <img id="github"
-                    src="img/github_logo.jpg" alt=""></a>
-
+            <ul>
+                <li>
+                    <h2>CONTATOS</h2>
+                </li>
+                <li> GITHUB: <a id="github" href="https://github.com/Akemle/Landscape-project-JS-HTML-CSS"><img
+                            src="img/github.png" alt=""></a> </li>
+                <li>EMAIL: landscape@gmail.com</li>    
+            </ul>
+            <p>&copy;<strong>Landscape</strong></p>
+            
         </footer>
     </section>
+
 </body>
+<script src="js/imgSlider.js"></script>
 
 </html>
